@@ -17,7 +17,7 @@
             border-bottom: 1px solid #E9E9E9;
             background-color: #fff;
             min-height: 1740px;
-            padding-bottom:10px;
+        	padding-bottom:10px;
             -webkit-box-shadow: 0 0 5px #E9E9E9;
         }
         .menu span {
@@ -56,7 +56,8 @@
         }
         .xhzx_body .right_content {
 			width:750px;
-        	height:1450px;
+        	min-height:1450px;
+        	padding-bottom:30px;
         	border:1px solid #ddd;
         	-webkit-box-shadow: #ddd 0px 0px 7px;
 			-moz-box-shadow: #ddd 0px 0px 7px;
@@ -68,37 +69,32 @@
         	background:url(images/5.png);
         }
         .right_content .title {
-			border-bottom:1px solid #ddd;
-        }
-        .right_content .list {
-			width:718px;
-        	height:189px;
+			width:683px;
+        	overflow:hidden;
         	margin:0 auto;
+        	line-height:20px;
+        	padding-top:40px;
+        	padding-bottom :15px;
         }
-		.right_content .list .r {
-			padding-top:20px;
-			width:203px;
+        .right_content .info {
+			width:736px;
+        	height:30px;
+        	line-height:30px;
+        	overflow:hidden;
+        	margin:0 auto;
+        	background:url(images/11.png);
         }
-		.right_content .list .r p {
-			margin-left:20px;
-			margin-right:20px;
+		.right_content .info span {
+			margin-right:35px;
         }
-        .right_content .list_1 {
-			background:url(images/bg_list_1.png);
+        .right_content .content {
+			width:650px;
+        	margin:0 auto;
+        	line-height: 25px;
         }
- 		.right_content .list_2 {
-			background:url(images/bg_list_2.png);
-        }
-		.right_content .list_3 {
-			background:url(images/bg_list_3.png);
-        }
-		.right_content .list_4 {
-			background:url(images/bg_list_4.png);
-        }
-		.right_content .list_5 {
-			background:url(images/bg_list_5.png);
-        }
-		
+       .right_content p {
+       		margin-bottom:0px;
+       }
     </style>
 </head>
 <body>
@@ -121,7 +117,7 @@
                                     <li><a href="#" title="通知公告">通知公告</a></li>
                                 </ul>
                             </li>
-                            <li>
+                            <li class="active">
                                 <a href="chengguozhanshi.html" title="成果展示">成果展示</a>
                                 <ul>
                                     <li><a href="#" title="实验区+实验学校">实验区+实验学校</a></li>
@@ -139,7 +135,7 @@
                                     <li><a href="#" title="flash">flash</a></li>
                                 </ul>
                             </li>
-                            <li class="active">
+                            <li>
                                 <a href="list_expert.html" title="学术交流">学术交流</a>
                                 <ul>
                                     <li><a href="list_expert_4.html" title="专家答疑">专家答疑</a></li>
@@ -170,91 +166,61 @@
     <div class="xhzx_body body">
         <div class="container_12 paddtop10 white_bg">
             <div class="grid_12 marbottom10">
-                <img src="images/13.gif" />
+                <img src="images/xhzx.fw_r2_c2.gif" />
             </div>
             <div class="clear"></div>
             <div class="grid_12 fontsize12">
             	<img src="images/l_r5_c7.gif" />
             	<a href=""><b>首页</b></a> > 
-            	<a href="">学术交流</a> 
-            	
+            	<a href="chengguozhanshi.html">成果展示</a> > 
+            	<a href="chengguozhanshi_1.html">成果鉴定</a>  >
+                <a href="">详情</a>  
             </div>
             <div class="grid_3 alpha omega menu martop15">
-            	<ul>
-            		<li>专家答疑<span><img src="images/2.png" /></span></li>
-            		<li class="li_boder"><a href="list_expert_2.html">学会智囊团</a><span>&nbsp;&nbsp;</span></li>
-            		<li  class="li_boder"><a href="list_expert_4.html">在线答疑</a><span>&nbsp;&nbsp;</span></li>
-            		<li class="bgE3EEF9 li_boder_2">优秀教育案例<span><img src="images/3.png" /></span></li>
-            		<li  class="li_boder">教学案例<span>&nbsp;&nbsp;</span></li>
-            		<li  class="li_boder">教学视频<span>&nbsp;&nbsp;</span></li>
-            		<li class="bgE3EEF9">社会调研<span><img src="images/3.png" /></span></li>
-            		<li  class="li_boder">学会调研课程<span>&nbsp;&nbsp;</span></li>
-            		<li class="bgE3EEF9">会议培训<span><img src="images/3.png" /></span></li>
-            		<li  class="li_boder">会议计划<span>&nbsp;&nbsp;</span></li>
-            		<li  class="li_boder">过往回顾<span>&nbsp;&nbsp;</span></li>
-            		<li class="bgE3EEF9">交流合作<span><img src="images/3.png" /></span></li>
-            		<li  class="li_boder">成功案例<span>&nbsp;&nbsp;</span></li>
-            		<li  class="li_boder">正在进行<span>&nbsp;&nbsp;</span></li>
-            		<li  class="li_boder">寻求合作<span>&nbsp;&nbsp;</span></li>
-            	</ul>
+                <ul>
+                    <li><a href="chengguozhanshi_1.html" class="colorfff">成果鉴定</a><span><img src="images/2.png" /></span></li>
+                    <li class="bgE3EEF9 li_boder_2">实验区、实验学校<span><img src="images/3.png" /></span></li>
+                    <li class="bgE3EEF9 li_boder_2">政府委托项目<span><img src="images/3.png" /></span></li>
+                    <li class="bgE3EEF9 li_boder_2">安全教育实验区<span><img src="images/3.png" /></span></li>
+                </ul>
             </div>
              <div class="grid_9 alpha omega marleft1">
              	<div class="right_content">
              		<div class="img_top"></div>
-             		<div class="title martop30 paddbottom20 textaligncenter">
-             			<p class="colorFEAB10 fontsize20">学术交流</p>
+             		<div class="title marbottom15 textaligncenter">
+             			<p class="fontsize20 color333">中国教育学会提供学术支持的第三方综合评价</p>
+             			<p class="fontsize15 color666">——中国校园综合素质能力竞赛</p>
              		</div>
-             		<div class="list list_1" style="margin-top:20px;">
-             			<div class="floatleft">
-             				<img src="images/14.gif" width="515" height="189" style="width:515px;height:189px;" />
-             			</div>
-             			<div class="floatright colorfff r">
-             				<p class="fontsize18">专家答疑</p>
-             				<p>紧扣会员实际需求，提供教学发展的专业解答及教育政策咨询...</p>
-             				<p class="martop20"><a href="list_expert_2.html" class="colorfff">学会智囊团</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="list_expert_4.html" class="colorfff">在线答疑</a></p>
-             			</div>
-             		</div>
-             		<div class="list list_2" style="margin-top:20px;">
-             			<div class="floatleft">
-             				<img src="images/15.gif" width="515" height="189" style="width:515px;height:189px;" />
-             			</div>
-             			<div class="floatright colorfff r">
-             				<p class="fontsize18">优秀教育案例</p>
-             				<p>分享一线优秀教学经验实案，共同致力教师成长...</p>
-             				<p class="martop20"><a href="" class="colorfff">教学案例</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="" class="colorfff">教学视频</a></p>
-             			</div>
-             		</div>
-             		<div class="list list_3" style="margin-top:20px;">
-             			<div class="floatleft">
-             				<img src="images/16.gif" width="515" height="189" style="width:515px;height:189px;" />
-             			</div>
-             			<div class="floatright colorfff r">
-             				<p class="fontsize18">社会调研</p>
-             				<p>关注社会热点，收集相关数据，传达民声民愿，辅助教育政策咨询...</p>
-             				<p class="martop20"><a href="" class="colorfff">学会调研课程</a></p>
-             			</div>
-             		</div>
-             		<div class="list list_4" style="margin-top:20px;">
-             			<div class="floatleft">
-             				<img src="images/17.gif" width="515" height="189" style="width:515px;height:189px;" />
-             			</div>
-             			<div class="floatright colorfff r">
-             				<p class="fontsize18">会议培训</p>
-             				<p>全方位跟踪会议（培训）进程， 提供在线报名及近期预告...</p>
-             				<p class="martop20"><a href="" class="colorfff">会议计划</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="" class="colorfff">过往回顾</a></p>
-             			</div>
-             		</div>
-             		<div class="list list_5" style="margin-top:20px;">
-             			<div class="floatleft">
-             				<img src="images/18.gif" width="515" height="189" style="width:515px;height:189px;" />
-             			</div>
-             			<div class="floatright colorfff r">
-             				<p class="fontsize18">交流合作</p>
-             				<p>资源的汇聚、智慧的结晶，推动学术成果市场化的平台...</p>
-             				<p class="martop20"><a href="" class="colorfff">成功案例</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="" class="colorfff">正在进行</a><br />
-             				<a href="" class="colorfff">寻求合作</a>
+             		<div class="info">
+             			<p class="fontsize11 color999 paddleft30">
+             					<span>来源：嘉祥教育网</span>
+             					<span>作者：刘德华</span>
+             					<span>浏览：152</span>
+             					<span>发布日期：2015/01/18</span>
+             					<span>分享&nbsp;&nbsp;
+             						<img src="images/l_r2_c7.png" />&nbsp;
+             						<img src="images/l_r2_c4.png" />&nbsp;
+             						<img src="images/l_r2_c5.png" />&nbsp;
+             						<img src="images/l_r2_c6.png" />&nbsp;
+             						<img src="images/l_r2_c3.png" />&nbsp;
+             						<img src="images/l_r2_c8.png" />
+             					</span>
              				</p>
-             			</div>
+             		</div>
+             		<div class="content color666">
+             			<p class="martop30"><img src="images/12.gif" class="marbottom20" width="650" height="418" style="width:650px;height:418px;" /></p>
+             			<p>
+             				    自2014年9月1日起，中国校园综合素质能力竞赛（原ACTS中国校园综合素质能力竞赛），陆续在各地启动。
+             			</p>
+             			<p>该项活动是根据《国家中长期教育改革和发展规划纲要》、《教育部关于积极推进中小学评价与考试制度改革的通知》
+             			等有关文件精神，依据《教育部关于推进中小学教育质量综合评价改革的意见》等要求，采用ACTS学业素质能力评价技术和
+             			ICTS综合素质能力评价技术，立足于教育科学化、国际化，分别以学科教育三维目标和成长教育三维目标为基础、以新课程标准
+             			为内容而设立的学业素质能力竞赛和综合素质能力竞赛，竞赛旨在检测、甄别、诊断、预测和评估学生的综合素质能力，推进中国
+             			校园大中小学生学习、成长和成才。</p>
+             			<p>此项活动共包含两项内容：1、ACTS学业素质能力评价——ACTS中国校园学业素质能力竞赛；
+             			2、ICTS综合素质能力评价——ICTS中国校园综合素质能力竞赛。</p>
+             			<p>该项活动由中国教育学会提供学术支持，并在2014年被确定为“教育部中小学教育质量综合评价改革实验区”、
+             			“中国教育学会中小学教育质量综合评价改革实验区”及“中国教育咨询师认证”项目的地区和学校实施。</p>
              		</div>
              	</div>
              </div>
@@ -269,6 +235,8 @@
         $(function () {
         	$('#head').load('head.html');
         	$('#footer').load('footer.html');
+            $.divselect("#divselect1", "#inputselect1");
+            $.divselect("#divselect2", "#inputselect2");
         });
     </script>
 </body>
