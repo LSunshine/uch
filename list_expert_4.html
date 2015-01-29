@@ -1,0 +1,538 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/text.css" />
+    <link rel="stylesheet" href="css/1020.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/formplate.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <style type="text/css">
+        .xhzx_body .white_bg {
+            border-top: none;
+            border-left: 1px solid #E9E9E9;
+            border-right: 1px solid #E9E9E9;
+            border-bottom: 1px solid #E9E9E9;
+            background-color: #fff;
+            min-height: 1740px;
+        	padding-bottom: 10px;
+            -webkit-box-shadow: 0 0 5px #E9E9E9;
+        }
+        .menu span {
+			margin-left:5px;
+        }
+        .menu .li_boder {
+			border-bottom:1px #ddd dashed;
+        }
+		.menu .li_boder_2 {
+			border-bottom:1px #fff solid;
+        }
+        .xhzx_body .menu {
+			width:245px;
+        }
+        .xhzx_body .menu  ul {
+			list-style:none;
+        	width:245px;
+        }
+		.xhzx_body .menu  ul li {
+        	height:48px;
+			line-height:48px;
+			text-align:right;
+			padding-right:30px;
+        }
+        .xhzx_body .menu  ul li {
+			color:#007CC2;
+			font-size:14px;
+        }
+		.xhzx_body .menu  ul li:first-child {
+			color:#fff;
+			font-size:15px;
+        	background:url(images/1.png);
+        }
+        .bgE3EEF9{
+			background-color:#E3EEF9;
+        }
+        .xhzx_body .right_content {
+			width:750px;
+        	min-height:1450px;
+        	border:1px solid #ddd;
+        	padding-bottom: 30px;
+        	-webkit-box-shadow: #ddd 0px 0px 7px;
+			-moz-box-shadow: #ddd 0px 0px 7px;
+			box-shadow: #ddd 0px 0px 7px;
+        }
+ 		.right_content .img_top {
+        	width:750px;
+			height:4px;
+        	background:url(images/5.png);
+        }
+       .right_content .expert_select {
+			width:704px;
+       		height:230px;
+       		background:#E3EEF9;
+       		margin:0 auto;
+        }
+        .right_content .expert_select .img_scroll6 {
+			position: relative;
+        	width:704px;
+       		height:230px;
+			float: left;
+			margin-bottom: 24px;
+        }
+		.img_scroll6 .prev6, .img_scroll6 .next6 {
+			cursor: pointer;
+			z-index: 999;
+			position: absolute;
+			display: block;
+			width: 13px;
+			height: 48px;
+			top: 89px;
+			color: #FFF;
+			text-align: center;
+		}
+		.img_scroll6 .prev6 {
+			left:15px;
+		}
+		.img_scroll6 .next6 {
+			right:15px;
+		}
+		.img-list6 {
+			position: relative;
+			height: 230px;
+			overflow: hidden;
+			width: 650px;
+			float: left;
+			margin-top: 10px;
+			margin-left: 35px;
+		}
+		.img_scroll6 #myTab2  {
+			width: 9999px;
+			float: left;
+			margin: 0 auto;
+		}
+		.img_scroll6 #myTab2 li {
+			padding-top: 7px;
+			padding-left: 7px;
+			padding-right: 7px;
+			margin-left:5px;
+			margin-right: 13px;
+			list-style:none;
+			float: left;
+			width:129px;
+			cursor: pointer;
+		}
+		#myTab2 .select {
+			background:#FEAB10;
+		}
+		.question {
+			overflow:hidden;
+		}
+		.formplate label span {
+			margin-top: 3px;
+			display: block;
+			float: left;
+		}
+		.formplate {
+			overflow:hidden;
+			margin-bottom: 20px;
+		}
+		.right_content .zxtw {
+			width:683px;
+			height:30px;
+			line-height:30px;
+			background:#F3F3F3;
+			border-bottom:1px solid #D0D0D0;
+		}
+		.right_content .tw_div .img {
+			width:65px;
+			text-align:center;
+			margin-top:3px;
+		}
+		.right_content .tw_div  {
+			width:683px;
+			overflow:hidden;
+			border-bottom: 1px dashed #ddd;
+			padding-bottom: 17px;
+		}
+		.right_content .hf_div  {
+			width:683px;
+			overflow:hidden;
+			padding-bottom: 33px;
+			border-bottom: 1px dashed #ddd;
+		}
+		.right_content .hf_div .z_hf {
+			margin-left:8px;
+		}
+		.right_content .bordernone  {
+			border-bottom: none;
+		}
+		
+		.right_content .tw_div .con,.right_content .hf_div .con {
+			width:570px;
+			margin-left:5px;
+		}
+		.right_content .t_img {
+		    -moz-border-radius: 6px;      /* Gecko browsers */
+		    -webkit-border-radius: 6px;   /* Webkit browsers */
+		    border-radius:6px;            /* W3C syntax */
+		}
+div.container{
+	display:block;
+	min-height:50px;
+	width:530px;
+	color:#999;
+	position: relative;
+	background-color:transparent;
+}
+s{
+	position:absolute;
+	display:block;
+	height:0;
+	width:0;
+	font-size: 0; 
+	line-height: 0;
+	
+	border-style:dashed dashed solid dashed;
+	border-width:10px;
+}
+i{
+	position:absolute;
+	display:block;
+	height:0;
+	width:0;
+	font-size: 0;
+	line-height: 0;
+	border-style:dashed dashed solid dashed;
+	border-width:10px;
+}
+/* 左边箭头 */ 
+.left_i s {
+	top: 20px;
+	left: -20px;
+	border-color:transparent #F3F2F0 transparent transparent;
+}
+.left_i i {
+	top:-10px;
+	left:-9px;
+	border-color:transparent #FFFEF4  transparent transparent;
+}
+/* 左边箭头 */ 
+
+/* 右边箭头 */ 
+.right_i s {
+	top: 20px;
+	right: -62px;
+	border-color:transparent transparent transparent #CDE0F4;
+}
+.right_i i {
+	top:-10px;
+	right:-9px;
+	border-color:transparent  transparent transparent #E3EEF9;
+}
+/* 右边箭头 */ 
+
+/* 最新回复下的左边箭头 */  
+.hf_div .left_i s {
+	border-color:transparent #F3F2F0 transparent transparent;
+}
+.hf_div .left_i i {
+	border-color:transparent #fff  transparent transparent;
+}
+/* 最新回复下的左边箭头 */  
+
+
+
+.content{
+	border:1px solid #F3F2F0;
+	-moz-border-radius: 3px;      /* Gecko browsers */
+	-webkit-border-radius: 3px;   /* Webkit browsers */
+	background-color:#FFFEF4;
+	width:100%;
+	padding:15px 20px;
+}
+/* 最新回复下的提问背景颜色 */ 
+.hf_tw .content {
+	background-color:#fff;
+}
+/* 最新回复下的提问背景颜色 */ 
+/* 最新回复下的回复背景颜色 */ 
+.hf_div .z_hf .content {
+	background-color:#E3EEF9;
+	border:1px solid #CDE0F4;
+}
+/* 最新回复下的回复背景颜色 */ 
+.hf_div .z_hf .right_img {
+	width:63px;
+	padding-right: 10px;
+	margin-left:0px;
+}
+
+    </style>
+</head>
+<body>
+    <!-- 顶部 -->
+    <div id="head"></div>
+    <!-- 导航 -->
+    <div class="nav">
+        <div class="container_12">
+            <div class="grid_12"></div>
+            <div class="clear"></div>
+        </div>
+    </div>
+    <!-- 导航 -->
+    <!-- 导航 -->
+    <div class="xhzx_body body">
+        <div class="container_12 paddtop10 white_bg">
+            <div class="grid_12 marbottom10">
+                <img src="images/13.gif" />
+            </div>
+            <div class="clear"></div>
+            <div class="grid_12 fontsize12">
+            	<img src="images/_r5_c7.gif" />
+            	<a href=""><b>首页</b></a> > 
+            	<a href="">学术交流</a> > 
+            	<a href="">专家答疑</a> 
+            </div>
+            <div class="grid_3 alpha omega menu martop15">
+            	<ul>
+            		<li>专家答疑<span><img src="images/2.png" /></span></li>
+            		<li class="li_boder">学会智囊团<span>&nbsp;&nbsp;</span></li>
+            		<li  class="li_boder"  style="color:#FF8000">在线答疑<span><img src="images/4.png" /></span></li>
+            		<li class="bgE3EEF9 li_boder_2">优秀教育案例<span><img src="images/3.png" /></span></li>
+            		<li  class="li_boder">教学案例<span>&nbsp;&nbsp;</span></li>
+            		<li  class="li_boder">教学视频<span>&nbsp;&nbsp;</span></li>
+            		<li class="bgE3EEF9">社会调研<span><img src="images/3.png" /></span></li>
+            		<li  class="li_boder">学会调研课程<span>&nbsp;&nbsp;</span></li>
+            		<li class="bgE3EEF9">会议培训<span><img src="images/3.png" /></span></li>
+            		<li  class="li_boder">会议计划<span>&nbsp;&nbsp;</span></li>
+            		<li  class="li_boder">过往回顾<span>&nbsp;&nbsp;</span></li>
+            		<li class="bgE3EEF9">交流合作<span><img src="images/3.png" /></span></li>
+            		<li  class="li_boder">成功案例<span>&nbsp;&nbsp;</span></li>
+            		<li  class="li_boder">正在进行<span>&nbsp;&nbsp;</span></li>
+            		<li  class="li_boder">寻求合作<span>&nbsp;&nbsp;</span></li>
+            	</ul>
+            </div>
+             <div class="grid_9 alpha omega marleft1">
+             	<div class="right_content">
+             		<div class="img_top"></div>
+             		<div class="expert_select" style="margin-top:20px;">
+             			<div class="img_scroll6">
+             				<span class="prev6" id="prev"><img src="images/prev3.gif"></span>
+             				<span class="next6" id="next"><img src="images/next3.gif"></span>
+             				<div class="img-list6" id="img-list6">
+             					<ul id="myTab2" style="margin-left:0px;">
+             						<li class="select textaligncenter">
+             							<div><img src="images/19.gif" width="129" height="180" style="width:129px;height:180px;" /></div>
+             							<div class="fontsize15 name  colorfff textaligncenter martop5">李克强1</div>
+             						</li>
+             						<li class="textaligncenter">
+             							<div><img src="images/19.gif" width="129" height="180" style="width:129px;height:180px;" /></div>
+             							<div class="fontsize15 name color2F7FCF textaligncenter martop5">李克强2</div>
+             						</li>
+             						<li class="textaligncenter">
+             							<div><img src="images/19.gif" width="129" height="180" style="width:129px;height:180px;" /></div>
+             							<div class="fontsize15 name color2F7FCF textaligncenter martop5">李克强3</div>
+             						</li>
+             						<li class="textaligncenter">
+             							<div><img src="images/19.gif" width="129" height="180" style="width:129px;height:180px;" /></div>
+             							<div class="fontsize15 name color2F7FCF textaligncenter martop5">李克强4</div>
+             						</li>
+             						<li class="textaligncenter">
+             							<div><img src="images/19.gif" width="129" height="180" style="width:129px;height:180px;" /></div>
+             							<div class="fontsize15 name color2F7FCF textaligncenter martop5">李克强</div>
+             						</li>
+             						<li class="textaligncenter">
+             							<div><img src="images/19.gif" width="129" height="180" style="width:129px;height:180px;" /></div>
+             							<div class="fontsize15 name color2F7FCF textaligncenter martop5">李克强</div>
+             						</li>
+             					</ul>
+             				</div>
+             				<div class="clear"></div>
+             				<div class="question martop30 marleft30">
+             					<form>
+             						<div class="formplate">
+										<label class="grid_2 fontsize14 color2F7FCF" for="text-1" style="width:70px;"><span class="colorred">*</span>&nbsp;选择专家</label>
+										<div class="grid_10" style="width:368px;">
+											<input class="k-input" type="text" id="zhuanj-name" value="请在上边选择 *" disabled>
+										</div>
+									</div>
+									<div class="clear"></div>
+									<div class="formplate">
+										<label class="grid_2 fontsize14 color2F7FCF" for="text-1" style="width:70px;"><span class="colorred">*</span>&nbsp;提问内容</label>
+										<div class="grid_10" style="width:365px;">
+											<textarea id="textarea-1"></textarea>
+										</div>
+									</div>
+									<div class="clear"></div>
+									<div class="">
+										<label class="grid_2 fontsize14 color2F7FCF" for="text-1" style="width:70px;"></label>
+										<div class="grid_10" style="width:390px;">
+										<input type="radio" name="tw" id="public" checked /> <label for="public" style="line-height:20px;" >公开提问</label>&nbsp;&nbsp;
+										<input type="radio"name="tw"  id="private" /> <label for="private" style="line-height:20px;"  >私密提问</label>
+											<a class="large button orange floatright">提交</a>
+										</div>
+									</div>
+									<div class="clear"></div>
+             					</form>
+             				</div>
+             				<div class="zxtw martop30">
+             					<div class="grid_12" style="width:683px;">
+             						<img src="images/22.gif" />&nbsp;&nbsp;<span class="fontsize14 color666">最新提问</span>
+             					</div>
+             				</div>
+             				<!-- 最新提问 -->
+             				<div class="tw_div martop20 left_i">
+             					<div class="grid_2 floatleft img">
+             						<div><img src="images/zhuanjia_2.png" class="t_img" width="62" height="62" style="width:62px;height:62px;" /></div>
+             						<div class="fontsize11 colorccc martop3">2015/01/18</div>
+             					</div>
+             					<div class="grid_10 alpha con">
+             						<div class="container">
+             							<div class="content">
+             								1月17日，由中国教育学会主办的2014年基础教育国家级教学成果奖推广研修活动，
+             								由中国教育学会主办的2014年基础教育国家级教学成果奖推，由中国教育学会主办的2014年基础教育国家级教学成果奖推...
+             							</div>
+             							<s><i></i></s>
+             						</div>
+             					</div>
+             				</div>
+             				<div class="clear"></div>
+             				<div class="tw_div martop20 bordernone left_i">
+             					<div class="grid_2 floatleft img">
+             						<div><img src="images/zhuanjia_2.png" class="t_img" width="62" height="62" style="width:62px;height:62px;" /></div>
+             						<div class="fontsize11 colorccc martop3">2015/01/18</div>
+             					</div>
+             					<div class="grid_10 alpha con">
+             						<div class="container">
+             							<div class="content">
+             								1月17日，由中国教育学会主办的2014年基础教育国家级教学成果奖推广研修活动，
+             								由中国教育学会主办的2014年基础教育国家级教学成果奖推，由中国教育学会主办的2014年基础教育国家级教学成果奖推...
+             							</div>
+             							<s><i></i></s>
+             						</div>
+             					</div>
+             				</div>
+             				<!-- 最新提问 -->
+             				<div class="clear"></div>
+             				<div class="zxtw martop10">
+             					<div class="grid_12" style="width:683px;">
+             						<img src="images/22.gif" />&nbsp;&nbsp;<span class="fontsize14 color666">最新回复</span>
+             					</div>
+             				</div>
+             				<!-- 最新回复 -->
+             				<div class="hf_div martop10">
+             					<div class="tw_div martop20 bordernone left_i hf_tw">
+	             					<div class="grid_2 floatleft img">
+	             						<div><img src="images/zhuanjia_2.png" class="t_img" width="62" height="62" style="width:62px;height:62px;" /></div>
+	             						<div class="fontsize11 colorccc martop3">2015/01/18</div>
+	             					</div>
+	             					<div class="grid_10 alpha con">
+	             						<div class="container">
+	             							<div class="content">
+	             								1月17日，由中国教育学会主办的2014年基础教育国家级教学成果奖推广研修活动，
+	             								由中国教育学会主办的2014年基础教育国家级教学成果奖推，由中国教育学会主办的2014年基础教育国家级教学成果奖推...
+	             							</div>
+	             							<s><i></i></s>
+	             						</div>
+	             					</div>
+             					</div>
+             					<div class="z_hf right_i">
+             						<div class="grid_10 alpha floatleft con">
+	             						<div class="container">
+	             							<div class="content">
+	             								1月17日，由中国教育学会主办的2014年基础教育国家级教学成果奖推广研修活动，
+	             								由中国教育学会主办的2014年基础教育国家级教学成果奖推，由中国教育学会主办的2014年基础教育国家级教学成果奖推...
+	             							</div>
+	             							<s><i></i></s>
+	             						</div>
+	             					</div>
+	             					<div class="grid_2 img floatright right_img">
+	             						<div><img src="images/19.gif" class="t_img" width="62" height="62" style="width:62px;height:62px;" /></div>
+	             						<div class="fontsize11 colorccc martop3">2015/01/18</div>
+	             					</div>
+             					</div>
+             				</div>
+             				<div class="hf_div martop10 bordernone">
+             					<div class="tw_div martop20 bordernone left_i hf_tw">
+	             					<div class="grid_2 floatleft img">
+	             						<div><img src="images/zhuanjia_2.png" class="t_img" width="62" height="62" style="width:62px;height:62px;" /></div>
+	             						<div class="fontsize11 colorccc martop3">2015/01/18</div>
+	             					</div>
+	             					<div class="grid_10 alpha con">
+	             						<div class="container">
+	             							<div class="content">
+	             								1月17日，由中国教育学会主办的2014年基础教育国家级教学成果奖推广研修活动，
+	             								由中国教育学会主办的2014年基础教育国家级教学成果奖推，由中国教育学会主办的2014年基础教育国家级教学成果奖推...
+	             							</div>
+	             							<s><i></i></s>
+	             						</div>
+	             					</div>
+             					</div>
+             					<div class="z_hf right_i">
+             						<div class="grid_10 alpha floatleft con">
+	             						<div class="container">
+	             							<div class="content">
+	             								1月17日，由中国教育学会主办的2014年基础教育国家级教学成果奖推广研修活动，
+	             								由中国教育学会主办的2014年基础教育国家级教学成果奖推，由中国教育学会主办的2014年基础教育国家级教学成果奖推...
+	             							</div>
+	             							<s><i></i></s>
+	             						</div>
+	             					</div>
+	             					<div class="grid_2 img floatright right_img">
+	             						<div><img src="images/19.gif" class="t_img" width="62" height="62" style="width:62px;height:62px;" /></div>
+	             						<div class="fontsize11 colorccc martop3">2015/01/18</div>
+	             					</div>
+             					</div>
+             				</div>
+             				<!-- 最新回复 -->
+             			</div>
+             		</div>
+             	</div>
+             </div>
+        </div>
+    </div>
+    <div id="footer"></div>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/divselect.js"></script>
+     <script type="text/javascript" src="js/formplate.js"></script>
+     <script type="text/javascript" src="js/jquery.carouFredSel-6.0.4-packed.js"></script>
+    <script type="text/javascript">
+        $(function () {
+        	$('#head').load('head.html');
+        	$('#footer').load('footer.html');
+            
+            $('#img-list6 ul').carouFredSel({
+				prev: '#prev',
+				next: '#next',
+				scroll: {
+				    items: 1,
+				    duration:100,
+				    timeoutDuration: 3000,
+				    easing: 'linear',
+				    pauseOnHover: 'immediate'
+				}
+			});
+            
+            $('#myTab2 li').bind('click',function(e){
+            	var obj = $(this);
+            	//选中样式select
+            	var li = $('#myTab2 li');
+            	li.removeClass('select');
+            	//改变之前选择的字体颜色
+            	var old_elm_name = $('#myTab2 li .name');
+            	old_elm_name.removeClass('colorfff');
+            	old_elm_name.addClass('color2F7FCF');
+            	obj.addClass('select');
+            	//改变当前选择的字体颜色
+            	var new_elm_name = obj.find('.name');
+            	new_elm_name.addClass('colorfff');
+            	new_elm_name.removeClass('color2F7FCF');
+            	$('#zhuanj-name').val(new_elm_name.html());
+            });
+        });
+    </script>
+</body>
+</html>
