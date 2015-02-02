@@ -57,6 +57,12 @@ a {
 .displaynone {
     display:none;
 }
+.paddtop3 {
+    padding-top: 3px;
+}
+.paddtop5 {
+    padding-top: 5px;
+}
 .paddtop8 {
     padding-top: 8px;
 }
@@ -229,6 +235,9 @@ a {
 
 .colorAAA {
     color: #AAA;
+}
+.color000 {
+    color:#000;
 }
 
 .color99E5FF {
