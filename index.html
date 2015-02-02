@@ -80,66 +80,11 @@
 </head>
 <body>
     <!-- 顶部 -->
-   
+   <div id="this_page_value" class="displaynone">1</div>
    <div id="head"></div>
     <!-- LOGO -->
     <!-- 导航 -->
-    <div class="nav">
-        <div class="container_12">
-            <div class="grid_12">
-           		 <div class="navbg">
-				  <div class="col960">
-				    <ul id="navul" class="cl">
-                        <li class="navhome active"><a href="index.html">首页</a></li>
-				      
-				      <li><a href="list_article.html" title="学会资讯">学会资讯</a>
-				        <ul>
-				          <li><a href="#" title="导航菜单">业界资讯</a></li>
-				          <li><a href="#" title="学会资讯">学会资讯</a></li>
-				          <li><a href="#" title="通知公告">通知公告</a></li>
-				        </ul>
-				      </li>
-				      <li><a href="chengguozhanshi.html" title="成果展示">成果展示</a>
-				        <ul>
-				          <li><a href="#" title="实验区+实验学校">实验区+实验学校</a></li>
-				          <li><a href="#" title="政府委托项目">政府委托项目</a></li>
-				          <li><a href="#" title="安全教育实验区">安全教育实验区</a></li>
-				        </ul>
-				      </li>
-				      <li><a href="shehuihuodong.html" title="社会活动">社会活动</a>
-				        <ul>
-				          <li><a href="shehuihuodong_1.html" title="教育沙龙">教育沙龙</a></li>
-                            <li><a href="#" title="学会活动">学会活动</a></li>
-                            <li><a href="#" title="国际交流">国际交流</a></li>
-				          <li><a href="#" title="公益活动">公益活动</a></li>
-				          <li><a href="#" title="flash">flash</a></li>
-				        </ul>
-				      </li>
-				      <li><a href="list_expert.html" title="学术交流">学术交流</a>
-				        <ul>
-				          <li><a href="list_expert_4.html" title="专家答疑">专家答疑</a></li>
-				          <li><a href="#" title="优秀教学推广">优秀教学推广</a></li>
-                            <li><a href="#" title="社会调研">社会调研</a></li>
-                            <li><a href="#" title="会议培训">会议培训</a></li>
-                            <li><a href="#" title="交流合作">交流合作</a></li>
-				          <li><a href="#" title="近期活动">近期活动</a></li>
-				        </ul>
-				      </li>
-                        <li>
-                            <a href="#" title="教育信息库">教育信息库</a>
-                            <ul>
-                                <li><a href="#" title="教育专家">教育专家</a></li>
-                                <li><a href="#" title="资源信息">电资源信息</a></li>
-                            </ul>
-                        </li>
-				      
-				    </ul>
-				  </div>
-				</div>
-            </div>
-            <div class="clear"></div>
-        </div>
-    </div>
+    <div id="nav"></div>
     <!-- 导航 -->
     <!-- 导航 -->
     <div class="body">
@@ -385,7 +330,8 @@
     <script type="text/javascript" src="js/gundong.js"></script>
     <script type="text/javascript">
         $(function () {
-        	$('#head').load('head.html');
+            $('#head').load('head.html');
+            $('#nav').load('nav.html');
         	$('#footer').load('footer.html');
             $.divselect("#divselect1", "#inputselect1");
             $.divselect("#divselect2", "#inputselect2");

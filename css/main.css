@@ -51,7 +51,12 @@ a {
     height: 248px;
     background: url(../images/footer_bg.png) repeat-x;
 }
-
+.bg_first_li {
+    background: #007CC2;
+}
+.displaynone {
+    display:none;
+}
 .paddtop8 {
     padding-top: 8px;
 }
@@ -65,6 +70,9 @@ a {
 }
 .paddtop25 {
     padding-top: 25px;
+}
+.paddtop30 {
+    padding-top: 30px;
 }
 .paddtop50 {
     padding-top: 50px;
@@ -118,7 +126,9 @@ a {
 .paddbottom20 {
     padding-bottom: 20px;
 }
-
+.martop-5 {
+    margin-top:-5px;
+}
 .martop3 {
     margin-top: 3px;
 }
@@ -181,6 +191,9 @@ a {
 .marleft30 {
     margin-left: 30px;
 }
+.marright14 {
+    margin-right:14px;
+}
 .marright25 {
     margin-right: 25px;
 }
@@ -188,6 +201,7 @@ a {
 .marright30 {
     margin-right: 30px;
 }
+
 
 .marbottom10 {
     margin-bottom: 10px;
@@ -249,6 +263,15 @@ a {
 }
 .colorccc {
 	color:#ccc;
+}
+.color0079BF {
+    color:#0079BF;
+}
+.color444 {
+    color:#444;
+}
+.color2E7FCE {
+    color:#2E7FCE;
 }
 /* 字体大小 */
 .fontsize11 {

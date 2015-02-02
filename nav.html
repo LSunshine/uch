@@ -1,0 +1,69 @@
+<div class="nav">
+    <div class="container_12">
+        <div class="grid_12">
+            <div class="navbg">
+                <div class="col960">
+                    <ul id="navul" class="cl">
+                        <li class="navhome" value="1"><a href="index.html">首页</a></li>
+
+                        <li value="2">
+                            <a href="xhzx_index.html" title="学会资讯">学会资讯</a>
+                            <ul>
+                                <li><a href="xhzx_index.html" title="导航菜单">业界资讯</a></li>
+                                <li><a href="#" title="学会资讯">学会资讯</a></li>
+                                <li><a href="#" title="通知公告">通知公告</a></li>
+                            </ul>
+                        </li>
+                        <li value="3">
+                            <a href="cgzs_index.html" title="成果展示">成果展示</a>
+                            <ul>
+                                <li><a href="#" title="实验区+实验学校">实验区+实验学校</a></li>
+                                <li><a href="#" title="政府委托项目">政府委托项目</a></li>
+                                <li><a href="#" title="安全教育实验区">安全教育实验区</a></li>
+                            </ul>
+                        </li>
+                        <li value="4">
+                            <a href="shhd_index.html" title="社会活动">社会活动</a>
+                            <ul>
+                                <li><a href="shhd_jiaoyushalong.html" title="教育沙龙">教育沙龙</a></li>
+                                <li><a href="#" title="学会活动">学会活动</a></li>
+                                <li><a href="#" title="国际交流">国际交流</a></li>
+                                <li><a href="#" title="公益活动">公益活动</a></li>
+                            </ul>
+                        </li>
+                        <li value="5">
+                            <a href="xsjl_index.html" title="学术交流">学术交流</a>
+                            <ul>
+                                <li><a href="xsjl_zaixiandayi.html" title="专家答疑">专家答疑</a></li>
+                                <li><a href="#" title="优秀教学推广">优秀教学推广</a></li>
+                                <li><a href="#" title="社会调研">社会调研</a></li>
+                                <li><a href="#" title="会议培训">会议培训</a></li>
+                                <li><a href="#" title="交流合作">交流合作</a></li>
+                                <li><a href="#" title="近期活动">近期活动</a></li>
+                            </ul>
+                        </li>
+                        <li value="6">
+                            <a href="#" title="教育信息库">教育信息库</a>
+                            <ul>
+                                <li><a href="#" title="教育专家">教育专家</a></li>
+                                <li><a href="#" title="资源信息">电资源信息</a></li>
+                            </ul>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="clear"></div>
+    </div>
+</div>
+<script type="text/javascript" src="js/work.js"></script>
+<script type="text/javascript">
+    var value = $('#this_page_value').html();
+    $('#navul li').each(function () {
+        var obj = $(this);
+        if (obj.attr('value') == value) {
+            obj.addClass('active');
+        }
+    });
+</script>
