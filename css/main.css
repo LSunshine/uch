@@ -516,7 +516,6 @@ list-style: none;
  #search_input {
              width: 683px;
             margin:0 auto;
-            overflow:hidden;
             border-bottom:1px dashed #ddd;
             padding-top:20px;
             padding-bottom:20px;

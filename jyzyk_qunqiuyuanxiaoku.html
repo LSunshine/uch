@@ -62,7 +62,27 @@
 			height:4px;
         	background:url(images/5.png);
         }
-      
+      #search_input_bg  {
+          width:444px;
+      }
+      .guo_div {
+          margin-left:20px;
+      }
+      #guo_divselect {
+          background:#fff;
+      }
+      #xueli_divselect {
+          background:#fff;
+          margin-left: 14px;
+      }
+      #search_input_bg .searchTxt {
+width: 210px;
+}
+        #search_input_bg .search_div {
+            width: 250px;
+            float: right;
+margin-right: 20px;
+        }
     </style>
 </head>
 <body>
@@ -111,14 +131,41 @@
                          </ul>
                      </div>
                      <div id="search_input">
-                         <div id="search_input_bg">
-                             <div class="search_div">
-                                 <form>
-                                     <input type="text" name="q" class="searchTxt" placeholder="专家姓名">
+                         <form>
+                             <div id="search_input_bg">
+                                 <div class="guo_div">
+                                     <div id="guo_divselect" class="divselect">
+                                         <cite>国籍</cite>
+                                         <div class="little_tb">
+                                             <img src="images/xjt.png" />
+                                         </div>
+                                         <ul>
+                                             <li><a href="javascript:;" selectid="1">国籍</a></li>
+                                             <li><a href="javascript:;" selectid="1">中国</a></li>
+                                         </ul>
+                                     </div>
+                                     <input name="" type="hidden" value="" id="guoji_input" />
+                                 </div>
+                                 <div class="guo_div">
+                                     <div id="xueli_divselect" class="divselect">
+                                         <cite>学历</cite>
+                                         <div class="little_tb">
+                                             <img src="images/xjt.png" />
+                                         </div>
+                                         <ul>
+                                             <li><a href="javascript:;" selectid="1">学历</a></li>
+                                             <li><a href="javascript:;" selectid="1">博士</a></li>
+                                         </ul>
+                                     </div>
+                                     <input name="" type="hidden" value="" id="xueli_input" />
+                                 </div>
+                                 <div class="search_div">
+                                     <input type="text" name="q" class="searchTxt" placeholder="搜索内容">
                                      <input type="submit" class="seaButt" value="搜索">
-                                 </form>
+
+                                 </div>
                              </div>
-                         </div>
+                         </form>
                      </div>
               
              	</div>
@@ -134,7 +181,9 @@
         $(function () {
             $('#head').load('head.html');
             $('#nav').load('nav.html');
-        	$('#footer').load('footer.html');
+            $('#footer').load('footer.html');
+            $.divselect("#guo_divselect", "#guoji_input");
+            $.divselect("#xueli_divselect", "#xueli_input");
         });
        
     </script>
