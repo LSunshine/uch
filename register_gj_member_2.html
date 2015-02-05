@@ -94,15 +94,12 @@
                margin-top: 40px;
              overflow:hidden;
          }
-         #jiben_info .left {
-             width:600px;
-             height:500px;
-             padding-top:15px;
-             border-right:1px dashed #ddd;
+         #pic_info {
+              margin-left:50px;
+               margin-top: 40px;
+             overflow:hidden;
          }
-         #jiben_info .right {
-             padding-top:15px;
-         }
+       
          .formplate label {
 			text-align:right;
             color:#525252;
@@ -153,149 +150,101 @@
                 <div id="member_bg">
                     <div class="member_type marbottom20">
                         <img src="images/gj_member_logo.gif" />
-                        <span class="fontsize27 colorccc marright100 floatright martop30"><i>STEP1/2</i></span>
+                        <span class="fontsize27 colorccc marright100 floatright martop30"><i>STEP2/2</i></span>
                     </div>
                     <div class="title">
-                        <p class="colorFF4D00 fontsize18"><b>个人基本信息</b></p>
+                        <p class="colorFF4D00 fontsize18"><b>分类信息填写</b></p>
                     </div>
                     <div class="martop20">
                         <form>
                             <div id="jiben_info">
-                                <div class="floatleft left">
-                                    <div class="formplate">
-                                        <label class="grid_2 fontsize14" for="text-1" style="width:100px;">电子邮箱：</label>
-                                        <div class="grid_5" style="width:330px;">
-                                            <input class="k-input" type="text" id="phone">
-                                        </div>
-                                    </div>
-                                    <div class="formplate">
-                                        <label class="grid_2 fontsize14" for="text-1" style="width:100px;">登录密码：</label>
-                                        <div class="grid_5" style="width:330px;">
-                                            <input class="k-input" type="text" id="phone">
-                                        </div>
-                                    </div>
-                                    <div class="formplate">
-                                        <label class="grid_2 fontsize14" for="text-1" style="width:100px;">确认密码：</label>
-                                        <div class="grid_5" style="width:330px;">
-                                            <input class="k-input" type="text" id="phone">
-                                        </div>
-                                    </div>
                                     <div class="formplate marbottom0">
-                                        <label class="grid_2 fontsize14" for="text-1" style="width:100px;">真实姓名：</label>
-                                        <div class="grid_5" style="width:330px;">
-                                            <input class="k-input" type="text" id="phone">
+                                        <label class="grid_2 fontsize14" for="text-1" style="width:200px;">1、我希望得到</label>
+                                        <div class="grid_5" style="width:600px;line-height: 40px;">
+                                            <input type="radio" name="tw" id="r_1" checked /> <label for="r_1">四川省优质教育促进会</label><br />
                                         </div>
                                     </div>
-                                    <div class="formplate marbottom0">
-                                        <label class="grid_2 fontsize14" for="text-1" style="width:100px;">性别：</label>
-                                        <div class="grid_5" style="width:330px;line-height: 40px;">
-                                            <input type="radio" name="tw" id="public" checked /> <label for="public">男</label>&nbsp;&nbsp;
-                                            <input type="radio" name="tw" id="private" /> <label for="private" >女</label>
-                                        </div>
-                                    </div>
-                                    <div class="formplate">
-                                        <label class="grid_2 fontsize14" for="text-1" style="width:100px;">出生日期：</label>
-                                        <div class="grid_5" style="width:330px;">
-                                            <input class="Wdate" type="text" onclick="WdatePicker()"> 
-                                        </div>
-                                    </div>
-                                    <div class="formplate">
-                                        <label class="grid_2 fontsize14" for="text-1" style="width:100px;">身份证号：</label>
-                                        <div class="grid_5" style="width:330px;">
-                                            <input class="k-input" type="text" id="phone">
-                                        </div>
-                                    </div>
-                                    <div class="formplate">
-                                        <label class="grid_2 fontsize14" for="text-1" style="width:100px;">职务：</label>
-                                        <div class="grid_5" style="width:330px;">
-                                            <input class="k-input" type="text" id="phone">
-                                        </div>
-                                    </div>
-                                    <div class="formplate">
-                                        <label class="grid_2 fontsize14" for="text-1" style="width:100px;">职称：</label>
-                                        <div class="grid_5" style="width:330px;">
-                                            <input class="k-input" type="text" id="phone">
-                                        </div>
-                                    </div>
-                                    <div class="formplate">
-                                        <label class="grid_2 fontsize14" for="text-1" style="width:100px;">学科：</label>
-                                        <div class="grid_5" style="width:330px;">
-                                            <input class="k-input" type="text" id="phone">
-                                        </div>
+                                <div class="formplate marbottom0">
+                                    <label class="grid_2 fontsize14" for="text-1" style="width:200px;"></label>
+                                    <div class="grid_5 color737373" style="width:600px;">
+                                        或:
                                     </div>
                                 </div>
-                                <div class="floatleft right"></div>
+                                <div class="formplate martop-20">
+                                    <label class="grid_2 fontsize14" for="text-1" style="width:200px;"></label>
+                                    <div class="grid_2" style="width:100px;">
+                                        <input type="radio" name="tw" id="r_2" checked /> <label for="r_2">分支机构：</label>
+                                    </div>
+                                    <div class="grid_2" style="width:400px;">
+                                        <span class="fp-select floatleft">
+                                            <select style="width:230px;height:32px;">
+                                                <option value="1"></option>
+                                            </select>
+                                        </span>
+                                        <span class="marleft10 floatleft martop8 color737373">专业支持和服务</span>
+                                    </div>
+                                </div>
+                                    <div class="formplate">
+                                        <label class="grid_2 fontsize14" for="text-1" style="width:200px;">2、会员分类：</label>
+                                        <div class="grid_5" style="width:600px;">
+                                            <span class="fp-select">
+                                                <select style="width:350px;">
+                                                    <option value="1"></option>
+                                                </select>
+                                            </span>
+                                        </div>
+                                    </div>
                             </div>
-                            <div class="title">
-                                <p class="colorFF4D00 fontsize18"><b>联络信息</b></p>
+                            <div class="title paddtop20">
+                                <p class="colorFF4D00 fontsize18"><b>教学科研信息</b></p>
                             </div>
                             <div id="lianluo_info">
                                 <div class="formplate">
-                                    <label class="grid_2 fontsize14" for="text-1" style="width:100px;">工作单位：</label>
-                                    <div class="grid_5" style="width:330px;">
+                                    <label class="grid_2 fontsize14" for="text-1" style="width:200px;">教研方向及领域：</label>
+                                    <div class="grid_5" style="width:350px;">
                                         <input class="k-input" type="text" id="phone">
                                     </div>
                                 </div>
                                 <div class="formplate">
-                                    <label class="grid_2 fontsize14" for="text-1" style="width:100px;">通讯地址：</label>
-                                    <div class="grid_5" style="width:600px;">
-                                        <span class="fp-select">
-                                            <select>
-                                                <option value="1">省份</option>
-                                                <option value="2">北京</option>
-                                                <option value="3">上海</option>
-                                                <option value="3">四川省</option>
-                                            </select>
-                                        </span>
-                                        <span class="fp-select">
-                                            <select>
-                                                <option value="1">地级市</option>
-                                                <option value="2">北京</option>
-                                                <option value="3">上海</option>
-                                                <option value="3">四川省</option>
-                                            </select>
-                                        </span>
-                                        <span class="fp-select">
-                                            <select>
-                                                <option value="1">市、县级市</option>
-                                                <option value="2">北京</option>
-                                                <option value="3">上海</option>
-                                                <option value="3">四川省</option>
-                                            </select>
-                                        </span>
+                                    <label class="grid_2 fontsize14" for="text-1" style="width:200px;">主要教学科研成果：</label>
+                                    <div class="grid_5" style="width:350px;">
+                                        <textarea id="textarea-1" placeholder=""></textarea>
                                     </div>
                                 </div>
+                            </div>
+                            <div class="title paddtop20">
+                                <p class="colorFF4D00 fontsize18"><b>附件上传</b></p>
+                            </div>
+                            <div id="pic_info">
                                 <div class="formplate">
-                                    <label class="grid_2 fontsize14" for="text-1" style="width:100px;"></label>
-                                    <div class="grid_5" style="width:330px;">
-                                        <input class="k-input" type="text" id="phone" placeholder="详细地址">
-                                    </div>
-                                </div>
-                                <div class="formplate">
-                                    <label class="grid_2 fontsize14" for="text-1" style="width:100px;">邮政编码：</label>
-                                    <div class="grid_5" style="width:330px;">
+                                    <label class="grid_2 fontsize14" style="width:250px;">教师资格证（工作证、学生证）：</label>
+                                    <div class="grid_5" style="width:350px;">
                                         <input class="k-input" type="text" id="phone">
                                     </div>
                                 </div>
                                 <div class="formplate">
-                                    <label class="grid_2 fontsize14" for="text-1" style="width:100px;">座机电话：</label>
-                                    <div class="grid_5" style="width:330px;">
+                                    <label class="grid_2 fontsize14"  style="width:250px;">身 份 证：</label>
+                                    <div class="grid_5" style="width:350px;">
                                         <input class="k-input" type="text" id="phone">
-                                    </div>
-                                    <div class="grid_5 marleft20 color777" style="width:130px;height:37px;line-height:37px;">
-                                        格式：028-12345678
                                     </div>
                                 </div>
                                 <div class="formplate">
-                                    <label class="grid_2 fontsize14" for="text-1" style="width:100px;">移动电话：</label>
-                                    <div class="grid_5" style="width:330px;">
+                                    <label class="grid_2 fontsize14" style="width:250px;">职 称 证：</label>
+                                    <div class="grid_5" style="width:350px;">
                                         <input class="k-input" type="text" id="phone">
                                     </div>
                                 </div>
-                                <div class="formplate martop30">
-                                    <label class="grid_2 fontsize14" for="text-1" style="width:100px;"></label>
+                                <div class="formplate martop10">
+                                    <label class="grid_2 fontsize14" for="text-1" style="width:250px;"></label>
+                                    <div class="grid_5" style="width:330px;">
+                                        <input type="checkbox" id="checkbox-2">
+                                        <label for="checkbox-2">我已阅读并接受 <a href="">版权声明</a> 和 <a href="">隐私保护</a> 条款</label>
+                                    </div>
+                                </div>
+                                <div class="formplate">
+                                    <label class="grid_2 fontsize14" for="text-1" style="width:250px;"></label>
                                     <div class="grid_2" style="width:110px;">
-                                        <button type="submit" class="btn-default btn-orange">下一步</button>
+                                        <button type="submit" class="btn-default btn-orange">申请注册</button>
                                     </div>
                                 </div>
                             </div>

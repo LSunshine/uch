@@ -138,6 +138,9 @@ a {
 .martop-10 {
     margin-top: -10px;
 }
+.martop-20 {
+    margin-top: -20px;
+}
 .martop3 {
     margin-top: 3px;
 }
@@ -174,7 +177,9 @@ a {
 .martop50 {
     margin-top: 50px;
 }
-
+.marleft0 {
+    margin-left: 0px;
+}
 .marleft1 {
     margin-left: 1px;
 }
@@ -299,6 +304,21 @@ a {
 .color2E7FCE {
     color:#2E7FCE;
 }
+.color737373 {
+    color:#737373;
+}
+.color85C126 {
+    color:#85C126;
+}
+.color007BC1 {
+     color:#007BC1;
+}
+.color545454 {
+    color : #545454;
+}
+.color808080 {
+    color:#808080;
+}
 /* 字体大小 */
 .fontsize11 {
     font-size: 11px;
@@ -354,7 +374,9 @@ a {
 .borderbottomfff {
     border-bottom:1px solid #fff;
 }
-
+.width-margin {
+    width:683px;margin:0 auto;
+}
 .floatleft {
     float: left;
 }
@@ -386,9 +408,20 @@ a {
 .lineheight26 {
     line-height: 26px;
 }
-
+.width50 {
+    width:50px;
+}
+.width100 {
+    width:100px;
+}
+.width150 {
+    width:150px;
+}
 .width160 {
     width: 160px;
+}
+.foneweight600 {
+    font-weight:600;
 }
 
 .search_div {
@@ -559,7 +592,7 @@ list-style: none;
             height:28px;
         }
          .btn-default {
-            width: 108px;
+            min-width: 108px;
             font-size: 16px;
             padding: 8px 14px 9px;
             color: #fff;
