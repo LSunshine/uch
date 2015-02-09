@@ -397,6 +397,10 @@ a {
     text-align: right;
 }
 
+.cursorpointer {
+    cursor:pointer;
+}
+
 .lineheight20 {
     line-height: 20px;
 }
