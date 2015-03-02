@@ -82,24 +82,94 @@
              background:url(images/member_res_bg.png);
          }
          #member_bg .t {
-             width:800px;
+             width:710px;
              margin:0 auto;
+             overflow:hidden;
          }
-         #member_bg .pt_member , .gj_member , .qy_member {
-             width:220px;
+         #member_bg .m_div {
+             width:320px;
              height:325px;
              float:left;
          }
-          #member_bg .pt_member {
-              margin-right:70px;
-             background:url(images/pt_member.gif);
+          #member_bg .m_div:first-child {
+             margin-right:70px;
          }
-         #member_bg .gj_member {
-              margin-right:70px;
-             background:url(images/gj_member.gif);
+         .m_top .j_bg_left {
+             width:5px;
+             height:264px;
+             float:left;
          }
-           #member_bg .qy_member {
-             background:url(images/qy_member.gif);
+        .m_top .j_bg_left_1 {
+            background:url(images/gr_bg_left.jpg);
+        }
+         .m_top .j_bg_left_2 {
+            background:url(images/qy_bg_left.jpg);
+        }
+         .m_top .j_bg {
+             width:310px;
+             height:264px;
+             float:left;
+         }
+          .m_top .j_bg_1 {
+             background:url(images/gr_bg.png) repeat;
+         }
+          .m_top .j_bg_2 {
+             background:url(images/qy_bg.jpg) repeat;
+         }
+         .m_top .j_bg_right {
+             width:5px;
+             height:264px;
+             float:left;
+         }
+         .m_top .j_bg_right_1 {
+             background:url(images/gr_bg_right.jpg);
+         }
+         .m_top .j_bg_right_2 {
+             background:url(images/qy_bg_right.jpg);
+         }
+         .m_top .pai_bg {
+             width:55px;
+             height:65px;
+             float:right;
+         }
+          .m_top .pai_bg_1 {
+             background:url(images/gr_top_bg.png);
+         }
+           .m_top .pai_bg_2 {
+             background:url(images/qy_top_bg.png);
+         }
+          .m_footer .j_bg_left {
+             width:5px;
+             height:61px;
+             float:left;
+         }
+          .m_footer .j_bg_left_1 {
+             background:url(images/gr_footer_left.jpg);
+         }
+           .m_footer .j_bg_left_2 {
+             background:url(images/qy_footer_left.jpg);
+         }
+           .m_footer .j_bg {
+             width:310px;
+             height:61px;
+             float:left;
+         }
+           .m_footer .j_bg_1 {
+             background:url(images/gr_bg_footer.jpg);
+         }
+           .m_footer .j_bg_2 {
+             background:url(images/qy_bg_footer.jpg);
+         }
+            .m_footer .j_bg_right {
+             width:5px;
+             height:61px;
+             float:left;
+         }
+            .m_footer .j_bg_right_1 {
+             background:url(images/gr_footer_right.jpg);
+         }
+             .m_footer .j_bg_right_2 {
+             background:url(images/qy_footer_right.jpg);
          }
            #member_bg .p1 {
                margin-top:155px;
@@ -141,20 +211,57 @@
             <div class="grid_12">
                 <div id="member_bg">
                     <div class="t colorfff">
-                        <div class="pt_member">
-                            <p class="fontsize18 textaligncenter p1">普通会员</p>
-                            <p class="paddleft10 p2">免费注册。您可在线会议报名、缴纳会务费。</p>
-                            <p class="p3 fontsize21 textaligncenter"><a href="register_pt_member.html" class="colorfff">立即注册</a></p>
+                        <div class="m_div">
+                            <div class="m_top">
+                                <div class="j_bg_left j_bg_left_1"></div>
+                                <div class="j_bg j_bg_1">
+                                    <div class="pai_bg pai_bg_1">
+                                        <img class="martop10 marleft35" src="images/gr_jpai.png" />
+                                    </div>
+                                    <div class="textaligncenter martop30">
+                                        <img class="marleft30" src="images/gr_pic.png" />
+                                    </div>
+                                    <div class="clear"></div>
+                                    <div>
+                                        <p class="fontsize18 textaligncenter martop20" style="margin-left:0px;">个人会员</p>
+                                        <p class="paddleft10 p2">免费注册。您可在线会议报名、缴纳会务费。</p>
+                                    </div>
+                                </div>
+                                <div class="j_bg_right j_bg_right_1"></div>
+                            </div>
+                            <div class="m_footer">
+                                <div class="j_bg_left j_bg_left_1"></div>
+                                <div class="j_bg j_bg_1">
+                                    <p class="fontsize21 textaligncenter martop15"><a href="register_pt_member.html" class="colorfff">立即注册</a></p>
+                                </div>
+                                <div class="j_bg_right j_bg_right_1"></div>
+                            </div>
                         </div>
-                        <div class="gj_member">
-                            <p class="fontsize18 textaligncenter p1">高级会员</p>
-                            <p class="paddleft10 p2">收取会费。享有中国教育学会为个人会员提供的所有服务。详情请点击“立即申请”查阅。</p>
-                            <p class="p3 fontsize21 textaligncenter"><a href="register_gj_member_1.html" class="colorfff">立即注册</a></p>
-                        </div>
-                        <div class="qy_member">
-                            <p class="fontsize18 textaligncenter p1">企业会员</p>
-                            <p class="paddleft10 p2">收取会费。享有中国教育学会为个人会员提供的所有服务。详情请点击“立即申请”查阅。</p>
-                            <p class="p3 fontsize21 textaligncenter"><a href="" class="colorfff">立即注册</a></p>
+                        <div class="m_div">
+                            <div class="m_top">
+                                <div class="j_bg_left j_bg_left_2"></div>
+                                <div class="j_bg j_bg_2">
+                                    <div class="pai_bg pai_bg_2">
+                                        <img class="martop10 marleft35" src="images/qy_jpai.png" />
+                                    </div>
+                                    <div class="textaligncenter martop30">
+                                        <img class="marleft30" src="images/qy_pic.png" />
+                                    </div>
+                                    <div class="clear"></div>
+                                    <div>
+                                        <p class="fontsize18 textaligncenter martop20" style="margin-left:0px;">单位会员</p>
+                                        <p class="paddleft10 p2">收取会费。享有中国教育学会为个人会员提供的所有服务。详情请点击“立即申请”查阅。</p>
+                                    </div>
+                                </div>
+                                <div class="j_bg_right j_bg_right_2"></div>
+                            </div>
+                            <div class="m_footer">
+                                <div class="j_bg_left j_bg_left_2"></div>
+                                <div class="j_bg j_bg_2">
+                                    <p class="fontsize21 textaligncenter martop15"><a href="register_pt_member.html" class="colorfff">立即注册</a></p>
+                                </div>
+                                <div class="j_bg_right j_bg_right_2"></div>
+                            </div>
                         </div>
                     </div>
                    
