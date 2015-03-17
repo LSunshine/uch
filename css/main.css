@@ -37,8 +37,7 @@ a {
 
 .body {
     width: 100%;
-    min-height: 800px;
-    padding-bottom: 10px;
+    padding-bottom: 30px;
     background: url(../images/body_bg.png) repeat;
 }
 
@@ -330,6 +329,15 @@ a {
 .color088F29 {
     color:#088F29;
 }
+.colorF45423 {
+    color:#F45423;
+}
+.color797979 {
+    color:#797979;
+}
+.color307FD0 {
+    color:#307FD0;
+}
 /* 字体大小 */
 .fontsize11 {
     font-size: 11px;
@@ -367,6 +375,10 @@ a {
 .fontsize21 {
     font-size: 21px;
 }
+.fontsize22 {
+    font-size: 22px;
+}
+
 .fontsize27 {
     font-size: 27px;
 }

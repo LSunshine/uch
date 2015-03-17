@@ -1,0 +1,87 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/text.css" />
+    <link rel="stylesheet" href="css/1020.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/menu.css" />
+    <link rel="stylesheet" href="css/formplate.css" />
+    <style type="text/css">
+        .white_bg {
+            border-top: none;
+            border-left: 1px solid #E9E9E9;
+            border-right: 1px solid #E9E9E9;
+            border-bottom: 1px solid #E9E9E9;
+            background-color: #fff;
+            min-height: 240px;
+            padding-bottom:70px;
+            -webkit-box-shadow: 0 0 5px #E9E9E9;
+        }
+        .login {
+            width:883px;
+            margin:0 auto;
+            border-top:1px solid #ddd;
+            padding: 70px 20px 70px 20px;
+        }
+    </style>
+</head>
+<body>
+    <!-- 顶部 -->
+   <div id="this_page_value" class="displaynone">1</div>
+   <div id="head"></div>
+    <!-- LOGO -->
+    <!-- 导航 -->
+    <div id="nav"></div>
+    <!-- 导航 -->
+    <!-- 导航 -->
+    <div class="body">
+        <div class="container_12 paddtop10 white_bg">
+            <div class="login" style="margin-top:30px;">
+                <div class="floatleft">
+                    <form class="martop20">
+                        <div class="formplate" style="margin-bottom:10px;overflow:hidden;">
+                            <label class="grid_2 fontsize14 textalignright" for="text-1" style="width:100px;"><b>设置密码：</b></label>
+                            <div class="grid_5" style="width:330px;">
+                                <input class="k-input" type="text" id="phone" style="width:250px;">
+                            </div>
+                        </div>
+                        <div class="clear"></div>
+                        <div class="formplate" style="margin-bottom:10px;overflow:hidden;">
+                            <label class="grid_2 fontsize14 textalignright" for="text-1" style="width:100px;"><b>确认密码：</b></label>
+                            <div class="grid_5" style="width:330px;">
+                                <input class="k-input" type="text" id="phone" style="width:250px;">
+                            </div>
+                        </div>
+                        <div class="clear"></div>
+                        <div class="formplate" style="margin-bottom:10px;overflow:hidden;">
+                            <label class="grid_2 fontsize14" for="text-1" style="width:100px;"></label>
+                            <div class="grid_2" style="width:110px;">
+                                <button type="submit" class="btn-default btn-blue" style="width:272px;">确认完成修改</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="floatright"></div>
+                <img src="images/83.png" class="floatright" />
+            </div>   
+        </div>
+    </div>
+    <!-- 底部搜索框 -->
+   <div id="footer"></div>
+    <!-- 底部 -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/work.js"></script>
+    <script type="text/javascript" src="js/formplate.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            $('#head').load('head.html');
+            $('#nav').load('nav.html');
+        	$('#footer').load('footer.html');
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,179 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/text.css" />
+    <link rel="stylesheet" href="css/1020.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/menu.css" />
+    <link rel="stylesheet" href="css/formplate.css" />
+    <style type="text/css">
+        .white_bg {
+            border-top: none;
+            border-left: 1px solid #E9E9E9;
+            border-right: 1px solid #E9E9E9;
+            border-bottom: 1px solid #E9E9E9;
+            background-color: #fff;
+            min-height: 240px;
+            padding-bottom:70px;
+            -webkit-box-shadow: 0 0 5px #E9E9E9;
+        }
+        .login {
+            width:883px;
+            margin:0 auto;
+            border-top:1px solid #ddd;
+            padding: 70px 20px 70px 20px;
+        }
+        #login_select {
+             width:450px;
+             margin:0 auto;
+             height: 37px;
+        }
+         #login_select li {
+             list-style:none;
+             float:left;
+             height:35px;
+             width:80px;
+             line-height:35px;
+             padding:0px 20px;
+             cursor:pointer;
+             border-top-left-radius:6px;
+             border-top-right-radius:6px;
+             text-align:center;
+         }
+        #login_select .active {
+             color:#FF5C26;
+             border-bottom:none ;
+               border-top:1px solid #ddd;
+             border-left:1px solid #ddd;
+             border-right:1px solid #ddd;
+         }        .border_bottom {
+            border-bottom :1px solid #ddd;
+        }
+    </style>
+</head>
+<body>
+    <!-- 顶部 -->
+   <div id="this_page_value" class="displaynone">1</div>
+   <div id="head"></div>
+    <!-- LOGO -->
+    <!-- 导航 -->
+    <div id="nav"></div>
+    <!-- 导航 -->
+    <!-- 导航 -->
+    <div class="body">
+        <div class="container_12 paddtop10 white_bg">
+            <div class="login" style="margin-top:30px;">
+                <div class="floatleft">
+
+                    <div class="login_select" id="login_select">
+                        <ul>
+                            <li class="border_bottom" style="width:20px;"></li>
+                            <li class="active a_se" value="gr_member">个人会员</li>
+                            <li class="border_bottom a_se" value="dw_member">单位会员</li>
+                            <li class="border_bottom" style="width:70px;"></li>
+                        </ul>
+                    </div>
+                    <div id="tab_content">
+                        <div class="gr_member" id="gr_member">
+                            <form class="martop20 pt_member">
+                                <div class="formplate" style="margin-bottom:10px;overflow:hidden;">
+                                    <label class="grid_2 fontsize14 textalignright" for="text-1" style="width:100px;"><b>注册邮箱：</b></label>
+                                    <div class="grid_5" style="width:330px;">
+                                        <input class="k-input" type="text" id="phone" style="width:250px;">
+                                    </div>
+                                </div>
+                                <div class="clear"></div>
+                                <div class="formplate" style="margin-bottom:10px;overflow:hidden;">
+                                    <label class="grid_2 fontsize14 textalignright" for="text-1" style="width:100px;"><b>登录密码：</b></label>
+                                    <div class="grid_5" style="width:330px;">
+                                        <input class="k-input" type="text" id="phone" style="width:250px;">
+                                    </div>
+                                </div>
+                                <div class="clear"></div>
+                                <div class="formplate" style="margin-bottom:20px;overflow:hidden;">
+                                    <label class="grid_2 fontsize14 textalignright" for="text-1" style="width:100px;"><b>验证码：</b></label>
+                                    <div class="grid_5" style="width:330px;">
+                                        <input class="k-input" type="text" id="phone" style="width:250px;">
+                                    </div>
+                                </div>
+                                <div class="clear"></div>
+                                <div class="formplate" style="margin-bottom:10px;overflow:hidden;">
+                                    <label class="grid_2 fontsize14" for="text-1" style="width:100px;"></label>
+                                    <div class="grid_2" style="width:110px;">
+                                        <button type="submit" class="btn-default btn-blue">登录</button>
+                                    </div>
+                                    <div class="grid_2" style="width:130px;height:38px;line-height:38px;color:#5697D8">
+                                        <a href="forget_pwd.html">忘记密码</a> | <a href="register_select.html">立即注册</a>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="dw_member displaynone" id="dw_member">
+                            <form class="martop20 qy_member">
+                                <div class="formplate" style="margin-bottom:10px;overflow:hidden;">
+                                    <label class="grid_2 fontsize14 textalignright" for="text-1" style="width:100px;"><b>单位账号：</b></label>
+                                    <div class="grid_5" style="width:330px;">
+                                        <input class="k-input" type="text" id="phone" style="width:250px;">
+                                    </div>
+                                </div>
+                                <div class="clear"></div>
+                                <div class="formplate" style="margin-bottom:10px;overflow:hidden;">
+                                    <label class="grid_2 fontsize14 textalignright" for="text-1" style="width:100px;"><b>登录密码：</b></label>
+                                    <div class="grid_5" style="width:330px;">
+                                        <input class="k-input" type="text" id="phone" style="width:250px;">
+                                    </div>
+                                </div>
+                                <div class="clear"></div>
+                                <div class="formplate" style="margin-bottom:20px;overflow:hidden;">
+                                    <label class="grid_2 fontsize14 textalignright" for="text-1" style="width:100px;"><b>验证码：</b></label>
+                                    <div class="grid_5" style="width:330px;">
+                                        <input class="k-input" type="text" id="phone" style="width:250px;">
+                                    </div>
+                                </div>
+                                <div class="clear"></div>
+                                <div class="formplate" style="margin-bottom:10px;overflow:hidden;">
+                                    <label class="grid_2 fontsize14" for="text-1" style="width:100px;"></label>
+                                    <div class="grid_2" style="width:110px;">
+                                        <button type="submit" class="btn-default btn-blue">登录</button>
+                                    </div>
+                                    <div class="grid_2" style="width:130px;height:38px;line-height:38px;color:#5697D8">
+                                        <a href="forget_pwd.html">忘记密码</a> | <a href="register_select.html">立即注册</a>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="floatright"></div>
+                <img src="images/82.png" class="floatright" />
+            </div>   
+        </div>
+    </div>
+    <!-- 底部搜索框 -->
+   <div id="footer"></div>
+    <!-- 底部 -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/work.js"></script>
+    <script type="text/javascript" src="js/formplate.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            $('#head').load('head.html');
+            $('#nav').load('nav.html');
+        	$('#footer').load('footer.html');
+        });
+        $('#login_select .a_se').on('click', function () {
+            $('#login_select .a_se').addClass('border_bottom');
+            $('#login_select .a_se').removeClass('active');//标签移除样式
+            $('#tab_content>div').hide();//隐藏所有内容DIV
+            var obj = $(this);
+            obj.addClass('active');//添加样式
+            var id = obj.attr('value');
+            $('#' + id).show();//显示当前点击的标签内容
+        });
+    </script>
+</body>
+</html>
